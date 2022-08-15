@@ -1,0 +1,50 @@
+<div id="xxx" class="bg-primary">
+  <article class="texto">
+    <div class="texto-interno">
+      <div class="imagem"><img src="assets\icon-star.svg" /></div>
+
+      <h3>How did we do?</h3>
+      <p>
+        Please le us know how we did with your support<br />
+        request. All feedback is appreciated to help<br />
+        us improve our offering!
+      </p>
+
+      <div id="notas" class="">
+        <div
+          [ngClass]="divStyle1"
+          (click)="this.nota = 1; onClick(); divStyle1 = 'teste1'"
+        >
+          1
+        </div>
+        <div
+          [ngClass]="divStyle2"
+          (click)="this.nota = 2; onClick(); divStyle2 = 'teste1'"
+        >
+          2
+        </div>
+        <div
+          [ngClass]="divStyle3"
+          (click)="this.nota = 3; onClick(); divStyle3 = 'teste1'"
+        >
+          3
+        </div>
+        <div
+          [ngClass]="divStyle4"
+          (click)="this.nota = 4; onClick(); divStyle4 = 'teste1'"
+        >
+          4
+        </div>
+        <div
+          [ngClass]="divStyle5"
+          (click)="this.nota = 5; onClick(); divStyle5 = 'teste1'"
+        >
+          5
+        </div>
+      </div>
+    </div>
+  </article>
+  <div>
+    <button routerLink="/two" class="botao">Submit</button>
+  </div>
+</div>

@@ -1,0 +1,82 @@
+#nota {
+  background-color: #262f38;
+  margin-right: 20px;
+  margin-top: 10px;
+
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+}
+.nota {
+  background-color: #262f38;
+  margin-right: 20px;
+  margin-top: 10px;
+
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+#notas {
+  display: flex;
+}
+#container {
+}
+
+.main {
+}
+
+.texto {
+  padding: 10px;
+}
+
+#xxx {
+  border-radius: 20px;
+  background-color: #1f2630;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 350px;
+  height: 320px;
+}
+.teste1 {
+  background-color: rgba(0, 0, 0, 0.418);
+  margin-right: 20px;
+  margin-top: 10px;
+
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.texto-interno {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.imagem {
+  background-color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.botao {
+  background-color: #fc7613;
+  border: 0px;
+  text-align: center;
+  margin-left: 13%;
+  border-radius: 30px;
+
+  margin-top: 10px;
+  width: 250px;
+  padding: 10px;
+}
