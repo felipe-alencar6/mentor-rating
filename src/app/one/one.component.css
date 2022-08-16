@@ -20,6 +20,9 @@
   text-align: center;
   padding: 10px;
 }
+.nota:hover {
+  background-color: gray;
+}
 
 #notas {
   display: flex;

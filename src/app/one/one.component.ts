@@ -21,7 +21,13 @@ export class OneComponent implements OnInit {
     this.service.nota = this.nota;
     //this.divStyle = 'teste1';
   }
-  changeColor() {}
+  changeColor() {
+    this.divStyle1 = 'nota';
+    this.divStyle2 = 'nota';
+    this.divStyle3 = 'nota';
+    this.divStyle4 = 'nota';
+    this.divStyle5 = 'nota';
+  }
 
   constructor(private service: CountService) {}
 

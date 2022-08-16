@@ -13,31 +13,41 @@
       <div id="notas" class="">
         <div
           [ngClass]="divStyle1"
-          (click)="this.nota = 1; onClick(); divStyle1 = 'teste1'"
+          (click)="
+            this.nota = 1; onClick(); changeColor(); divStyle1 = 'teste1'
+          "
         >
           1
         </div>
         <div
           [ngClass]="divStyle2"
-          (click)="this.nota = 2; onClick(); divStyle2 = 'teste1'"
+          (click)="
+            this.nota = 2; onClick(); changeColor(); divStyle2 = 'teste1'
+          "
         >
           2
         </div>
         <div
           [ngClass]="divStyle3"
-          (click)="this.nota = 3; onClick(); divStyle3 = 'teste1'"
+          (click)="
+            this.nota = 3; onClick(); changeColor(); divStyle3 = 'teste1'
+          "
         >
           3
         </div>
         <div
           [ngClass]="divStyle4"
-          (click)="this.nota = 4; onClick(); divStyle4 = 'teste1'"
+          (click)="
+            this.nota = 4; onClick(); changeColor(); divStyle4 = 'teste1'
+          "
         >
           4
         </div>
         <div
           [ngClass]="divStyle5"
-          (click)="this.nota = 5; onClick(); divStyle5 = 'teste1'"
+          (click)="
+            this.nota = 5; onClick(); changeColor(); divStyle5 = 'teste1'
+          "
         >
           5
         </div>
